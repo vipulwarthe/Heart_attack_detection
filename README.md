@@ -30,12 +30,12 @@ Support Vector Machine
 # First we Create instance with ubuntu AMI with t2.medium instance type with 30GB storage 
 
 
-   1   sudo apt-get update && sudo apt-get upgrade -y      
-   2   sudo apt install python3-venv -y          (install python environment)
-   3   python3 -m venv MLPRO
-   4   source MLPRO/bin/activate                 (activate env)
-   5   mkdir mlproject                           (create one project directory)
-   6   cd mlproject                              (enter in project directory)
+       sudo apt-get update && sudo apt-get upgrade -y       (update and upgrade the required packages)
+       sudo apt install python3-venv -y                     (install python environment)
+       python3 -m venv MLPRO                                (name given to the env MLPRO)
+       source MLPRO/bin/activate                            (activate env)
+       mkdir mlproject                                      (create one project directory)
+       cd mlproject                                         (enter in project directory)
 
 # Login to your github account and create a new repo and paste cmds from github repo:
 
