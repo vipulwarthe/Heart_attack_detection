@@ -1,0 +1,12 @@
+pandas
+numpy
+seaborn
+matplotlib
+sklearn
+scikit-learn
+pandas-profiling
+xgboost
+mlxtend
+Flask
+
+-e .
